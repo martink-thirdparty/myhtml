@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug Lib|Win32">
+      <Configuration>Debug Lib</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Lib|Win32">
+      <Configuration>Release Lib</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug Lib|x64">
+      <Configuration>Debug Lib</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Lib|x64">
+      <Configuration>Release Lib</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vanilla\source\mycore\incoming.h" />
+    <ClInclude Include="vanilla\source\mycore\myosi.h" />
+    <ClInclude Include="vanilla\source\mycore\mystring.h" />
+    <ClInclude Include="vanilla\source\mycore\mythread.h" />
+    <ClInclude Include="vanilla\source\mycore\perf.h" />
+    <ClInclude Include="vanilla\source\mycore\thread_queue.h" />
+    <ClInclude Include="vanilla\source\mycore\utils.h" />
+    <ClInclude Include="vanilla\source\mycore\utils\avl_tree.h" />
+    <ClInclude Include="vanilla\source\mycore\utils\mchar_async.h" />
+    <ClInclude Include="vanilla\source\mycore\utils\mcobject.h" />
+    <ClInclude Include="vanilla\source\mycore\utils\mcobject_async.h" />
+    <ClInclude Include="vanilla\source\mycore\utils\mcsimple.h" />
+    <ClInclude Include="vanilla\source\mycore\utils\mcsync.h" />
+    <ClInclude Include="vanilla\source\mycore\utils\mctree.h" />
+    <ClInclude Include="vanilla\source\mycore\utils\mhash.h" />
+    <ClInclude Include="vanilla\source\mycore\utils\resources.h" />
+    <ClInclude Include="vanilla\source\myencoding\detect_resource.h" />
+    <ClInclude Include="vanilla\source\myencoding\encoding.h" />
+    <ClInclude Include="vanilla\source\myencoding\myosi.h" />
+    <ClInclude Include="vanilla\source\myencoding\mystring.h" />
+    <ClInclude Include="vanilla\source\myencoding\resource.h" />
+    <ClInclude Include="vanilla\source\myhtml\api.h" />
+    <ClInclude Include="vanilla\source\myhtml\callback.h" />
+    <ClInclude Include="vanilla\source\myhtml\charef.h" />
+    <ClInclude Include="vanilla\source\myhtml\charef_resource.h" />
+    <ClInclude Include="vanilla\source\myhtml\data_process.h" />
+    <ClInclude Include="vanilla\source\myhtml\def.h" />
+    <ClInclude Include="vanilla\source\myhtml\myhtml.h" />
+    <ClInclude Include="vanilla\source\myhtml\mynamespace.h" />
+    <ClInclude Include="vanilla\source\myhtml\mynamespace_resource.h" />
+    <ClInclude Include="vanilla\source\myhtml\myosi.h" />
+    <ClInclude Include="vanilla\source\myhtml\mystring.h" />
+    <ClInclude Include="vanilla\source\myhtml\parser.h" />
+    <ClInclude Include="vanilla\source\myhtml\rules.h" />
+    <ClInclude Include="vanilla\source\myhtml\serialization.h" />
+    <ClInclude Include="vanilla\source\myhtml\stream.h" />
+    <ClInclude Include="vanilla\source\myhtml\tag.h" />
+    <ClInclude Include="vanilla\source\myhtml\tag_const.h" />
+    <ClInclude Include="vanilla\source\myhtml\token.h" />
+    <ClInclude Include="vanilla\source\myhtml\tokenizer.h" />
+    <ClInclude Include="vanilla\source\myhtml\tokenizer_doctype.h" />
+    <ClInclude Include="vanilla\source\myhtml\tokenizer_end.h" />
+    <ClInclude Include="vanilla\source\myhtml\tokenizer_script.h" />
+    <ClInclude Include="vanilla\source\myhtml\tree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vanilla\source\mycore\incoming.c" />
+    <ClCompile Include="vanilla\source\mycore\myosi.c" />
+    <ClCompile Include="vanilla\source\mycore\mystring.c" />
+    <ClCompile Include="vanilla\source\mycore\mythread.c" />
+    <ClCompile Include="vanilla\source\mycore\thread_queue.c" />
+    <ClCompile Include="vanilla\source\mycore\utils.c" />
+    <ClCompile Include="vanilla\source\mycore\utils\avl_tree.c" />
+    <ClCompile Include="vanilla\source\mycore\utils\mchar_async.c" />
+    <ClCompile Include="vanilla\source\mycore\utils\mcobject.c" />
+    <ClCompile Include="vanilla\source\mycore\utils\mcobject_async.c" />
+    <ClCompile Include="vanilla\source\mycore\utils\mcsimple.c" />
+    <ClCompile Include="vanilla\source\mycore\utils\mcsync.c" />
+    <ClCompile Include="vanilla\source\mycore\utils\mctree.c" />
+    <ClCompile Include="vanilla\source\mycore\utils\mhash.c" />
+    <ClCompile Include="vanilla\source\myencoding\detect.c" />
+    <ClCompile Include="vanilla\source\myencoding\encoding.c" />
+    <ClCompile Include="vanilla\source\myencoding\mystring.c" />
+    <ClCompile Include="vanilla\source\myhtml\callback.c" />
+    <ClCompile Include="vanilla\source\myhtml\charef.c" />
+    <ClCompile Include="vanilla\source\myhtml\data_process.c" />
+    <ClCompile Include="vanilla\source\myhtml\myhtml.c" />
+    <ClCompile Include="vanilla\source\myhtml\mynamespace.c" />
+    <ClCompile Include="vanilla\source\myhtml\mystring.c" />
+    <ClCompile Include="vanilla\source\myhtml\parser.c" />
+    <ClCompile Include="vanilla\source\myhtml\rules.c" />
+    <ClCompile Include="vanilla\source\myhtml\serialization.c" />
+    <ClCompile Include="vanilla\source\myhtml\stream.c" />
+    <ClCompile Include="vanilla\source\myhtml\tag.c" />
+    <ClCompile Include="vanilla\source\myhtml\tag_init.c" />
+    <ClCompile Include="vanilla\source\myhtml\token.c" />
+    <ClCompile Include="vanilla\source\myhtml\tokenizer.c" />
+    <ClCompile Include="vanilla\source\myhtml\tokenizer_doctype.c" />
+    <ClCompile Include="vanilla\source\myhtml\tokenizer_end.c" />
+    <ClCompile Include="vanilla\source\myhtml\tokenizer_script.c" />
+    <ClCompile Include="vanilla\source\myhtml\tree.c" />
+    <ClCompile Include="vanilla\source\myport\windows_nt\mycore\io.c" />
+    <ClCompile Include="vanilla\source\myport\windows_nt\mycore\memory.c" />
+    <ClCompile Include="vanilla\source\myport\windows_nt\mycore\perf.c" />
+    <ClCompile Include="vanilla\source\myport\windows_nt\mycore\thread.c" />
+    <ClCompile Include="vanilla\source\myport\windows_nt\mycore\utils\mcsync.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{CCA41E9F-4E97-4BD7-AFD5-97EC74B4FE86}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MyHTML</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Lib|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Lib|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Lib|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Lib|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug Lib|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\property sheets\MartinK build settings.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release Lib|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\property sheets\MartinK build settings.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug Lib|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\property sheets\MartinK build settings.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release Lib|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\property sheets\MartinK build settings.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Lib|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Lib|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Lib|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Lib|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Lib|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)vanilla\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+    </ClCompile>
+    <Link>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Lib|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)vanilla\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+    </ClCompile>
+    <Link>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Lib|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)vanilla\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Lib|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)vanilla\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

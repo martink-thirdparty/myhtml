@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vanilla\source\mycore\utils\avl_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\incoming.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\utils\mcobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\utils\mcobject_async.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\utils\mcsimple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\utils\mcsync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\utils\mctree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\utils\mhash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\utils\mchar_async.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\myosi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\mystring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\mythread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\perf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\utils\resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\thread_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\mycore\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myencoding\detect_resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myencoding\encoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myencoding\myosi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myencoding\mystring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myencoding\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\callback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\data_process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\charef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\charef_resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\myhtml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\mynamespace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\mynamespace_resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\myosi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\mystring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\rules.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\serialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\tag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\tag_const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\token.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\tokenizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\tokenizer_doctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\tokenizer_end.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\tokenizer_script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vanilla\source\myhtml\tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vanilla\source\mycore\utils\avl_tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\mycore\incoming.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\mycore\utils\mcobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\mycore\utils\mcobject_async.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\mycore\utils\mcsimple.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\mycore\utils\mcsync.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\mycore\utils\mctree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\mycore\utils\mhash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\mycore\utils\mchar_async.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\mycore\myosi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\mycore\mystring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\mycore\mythread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\mycore\thread_queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\mycore\utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myencoding\detect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myencoding\encoding.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myencoding\mystring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\callback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\data_process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\charef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\myhtml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\mynamespace.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\mystring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\rules.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\serialization.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\tag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\tag_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\token.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\tokenizer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\tokenizer_doctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\tokenizer_end.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\tokenizer_script.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myhtml\tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myport\windows_nt\mycore\io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myport\windows_nt\mycore\utils\mcsync.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myport\windows_nt\mycore\memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myport\windows_nt\mycore\perf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vanilla\source\myport\windows_nt\mycore\thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

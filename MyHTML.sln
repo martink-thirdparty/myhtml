@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyHTML", "MyHTML.vcxproj", "{CCA41E9F-4E97-4BD7-AFD5-97EC74B4FE86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Lib|x64 = Debug Lib|x64
+		Debug Lib|x86 = Debug Lib|x86
+		Release Lib|x64 = Release Lib|x64
+		Release Lib|x86 = Release Lib|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCA41E9F-4E97-4BD7-AFD5-97EC74B4FE86}.Debug Lib|x64.ActiveCfg = Debug Lib|x64
+		{CCA41E9F-4E97-4BD7-AFD5-97EC74B4FE86}.Debug Lib|x64.Build.0 = Debug Lib|x64
+		{CCA41E9F-4E97-4BD7-AFD5-97EC74B4FE86}.Debug Lib|x86.ActiveCfg = Debug Lib|Win32
+		{CCA41E9F-4E97-4BD7-AFD5-97EC74B4FE86}.Debug Lib|x86.Build.0 = Debug Lib|Win32
+		{CCA41E9F-4E97-4BD7-AFD5-97EC74B4FE86}.Release Lib|x64.ActiveCfg = Release Lib|x64
+		{CCA41E9F-4E97-4BD7-AFD5-97EC74B4FE86}.Release Lib|x64.Build.0 = Release Lib|x64
+		{CCA41E9F-4E97-4BD7-AFD5-97EC74B4FE86}.Release Lib|x86.ActiveCfg = Debug Lib|Win32
+		{CCA41E9F-4E97-4BD7-AFD5-97EC74B4FE86}.Release Lib|x86.Build.0 = Debug Lib|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F6AC495-8272-48EF-BBB0-E409554B2EC7}
+	EndGlobalSection
+EndGlobal
